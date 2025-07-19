@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Bootstrap Template</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body><div id="smooth-wrapper"><div id="smooth-content">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">Brand</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="header " style="height: 100vh;background:linear-gradient(to top,  rgb(250, 254, 255) 20%, rgb(216, 218, 236) 60%, #1958F4); align-content: end;padding: 0;">
+  <div class="fixed-top video-scroll2 justify-content-end" style=" width: 100%; height: 100vh;  z-index: 1;opacity: 1;">  
+ <svg class="animate-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 510 510" >
+  <defs>
+         <radialGradient id="orb-gradient" cx="112.75" cy="112.75" r="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#17dddb"></stop>
+      <stop offset="100%" stop-color="#1958f4"></stop>
+    </radialGradient>
+    <style>
+      .st02 { fill: white; }
+      .st12 { fill: none;         stroke: white;
+ ;stroke-width: 0.05rem; stroke-miterlimit: 10; }
+ 
+    </style>
+  </defs>
+  <g id="base2">
+    <circle class="st12" cx="249.9" cy="249.9" r="249.4"/>
+  </g>
+  <g id="orbitB2">
+    <circle class="st12" cx="186.1" cy="317.7" r="156.4"/>
+  </g>
+  <g id="orbitA2">
+    <circle class="st12" cx="285" cy="214.4" r="199.5"/>
+  </g>
+  <g id="circleB2">
+    <circle class="st02" cx="287.6" cy="198.7" r="15"/>
+  </g>
+  <g id="circleA12">
+    <circle class="st02" cx="86.1" cy="197.4" r="15"/>
+  </g>
+  <g id="circleA22">
+    <circle class="st02" cx="313.1" cy="414" r="15"/>
+  </g>
+</svg>
+</div>
+<div class="fixed-top video-scroll" style=" width: 100%; height: 100vh;  z-index: 0;opacity: 1;">
+ <svg class="" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 200 500 500">
+  <defs>
+    <style>
+      .st0 { fill: white; }
+      .st1 { fill: none; stroke:white; ;stroke-width: 0.01rem; stroke-miterlimit: 10; }
+    </style>
+  </defs>
+  <g id="base">
+    <circle class="st1" cx="249.9" cy="249.9" r="249.4"/>
+  </g>
+  <g id="orbitB">
+    <circle class="st1" cx="186.1" cy="317.7" r="156.4"/>
+  </g>
+  <g id="orbitA">
+    <circle class="st1" cx="285" cy="214.4" r="199.5"/>
+  </g>
+  <g id="circleB">
+    <circle class="st0" cx="287.6" cy="198.7" r="4"/>
+  </g>
+  <g id="circleA1">
+    <circle class="st0" cx="86.1" cy="197.4" r="4"/>
+  </g>
+  <g id="circleA2">
+    <circle class="st0" cx="313.1" cy="414" r="4"/>
+  </g>
+</svg>
+</div>
+<div class="container-fluid mb-5   " style="position:relative;  overflow: visible;z-index: 2;">
+<div class="row row-padding " style="overflow: visible;">
+ 
+
+<div class="col-md-9" style="overflow: visible;">
+ 
+<div class="logo-appear" style="max-width: 10vw;margin-bottom: 80px;margin-left: 10px;">
+  <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 372.5 85.58">
+  <defs>
+
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: #5c6266;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="202.36" cy="53.68" fx="202.36" fy="53.68" r="48.11" gradientUnits="userSpaceOnUse">
+      <stop offset=".41" stop-color="#17dddb"/>
+      <stop offset="1" stop-color="#1958f4"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path class="cls-2" d="M38.33,51.26H8.39c.24,3.13,1.4,5.64,3.48,7.54,2.09,1.9,4.65,2.84,7.68,2.84,4.36,0,7.44-1.82,9.25-5.48h8.75c-1.19,3.6-3.33,6.55-6.44,8.85-3.11,2.3-6.96,3.45-11.56,3.45-3.75,0-7.1-.84-10.06-2.52-2.96-1.68-5.29-4.05-6.97-7.11-1.68-3.06-2.53-6.6-2.53-10.63s.82-7.57,2.45-10.63,3.93-5.42,6.9-7.08c2.96-1.66,6.37-2.49,10.21-2.49s6.99.81,9.88,2.42c2.89,1.61,5.14,3.88,6.76,6.79,1.61,2.92,2.42,6.27,2.42,10.06,0,1.47-.1,2.8-.28,3.98ZM30.15,44.72c-.05-2.99-1.11-5.38-3.2-7.18-2.09-1.8-4.67-2.7-7.75-2.7-2.8,0-5.19.89-7.18,2.67s-3.18,4.19-3.56,7.22h21.69Z"/>
+    <path class="cls-2" d="M71.08,29.93c2.44,1.28,4.35,3.18,5.72,5.69,1.37,2.51,2.06,5.55,2.06,9.1v23.11h-8.04v-21.9c0-3.51-.88-6.2-2.63-8.07-1.75-1.87-4.15-2.81-7.18-2.81s-5.44.94-7.22,2.81c-1.78,1.87-2.67,4.56-2.67,8.07v21.9h-8.11V28.65h8.11v4.48c1.33-1.61,3.02-2.87,5.09-3.77,2.06-.9,4.25-1.35,6.58-1.35,3.08,0,5.84.64,8.29,1.92Z"/>
+    <path class="cls-2" d="M85.37,37.61c1.64-3.03,3.86-5.39,6.68-7.08,2.82-1.68,5.96-2.52,9.42-2.52,2.56,0,5.09.56,7.57,1.67,2.49,1.11,4.47,2.6,5.94,4.44V15.2h8.18v52.63h-8.18v-5.9c-1.33,1.9-3.16,3.46-5.51,4.69-2.35,1.23-5.04,1.85-8.07,1.85-3.41,0-6.53-.86-9.35-2.6-2.82-1.73-5.05-4.15-6.68-7.25-1.64-3.1-2.45-6.62-2.45-10.56s.82-7.42,2.45-10.45ZM113.32,41.16c-1.11-1.99-2.57-3.51-4.37-4.55-1.8-1.04-3.75-1.56-5.83-1.56s-4.03.51-5.83,1.53c-1.8,1.02-3.26,2.51-4.37,4.48-1.11,1.97-1.67,4.3-1.67,7.01s.56,5.07,1.67,7.11c1.11,2.04,2.58,3.59,4.41,4.66,1.82,1.07,3.76,1.6,5.8,1.6s4.03-.52,5.83-1.56c1.8-1.04,3.26-2.57,4.37-4.59,1.11-2.01,1.67-4.37,1.67-7.08s-.56-5.05-1.67-7.04Z"/>
+    <path class="cls-2" d="M163.07,40.24c-1.19,2.23-3.08,4.04-5.69,5.44-2.61,1.4-5.95,2.1-10.03,2.1h-8.96v20.06h-8.11V18.4h17.07c3.79,0,7,.65,9.64,1.96,2.63,1.3,4.6,3.07,5.9,5.3,1.3,2.23,1.96,4.72,1.96,7.47,0,2.51-.59,4.88-1.78,7.11ZM154.25,39.06c1.52-1.4,2.28-3.38,2.28-5.94,0-5.4-3.06-8.11-9.17-8.11h-8.96v16.14h8.96c3.08,0,5.38-.7,6.9-2.1Z"/>
+  </g>
+  <g>
+    <path class="cls-2" d="M262.98,21.96c-1-1-1.49-2.23-1.49-3.7s.5-2.7,1.49-3.7,2.23-1.49,3.7-1.49,2.63.5,3.63,1.49,1.49,2.23,1.49,3.7-.5,2.7-1.49,3.7c-1,1-2.2,1.49-3.63,1.49s-2.7-.5-3.7-1.49ZM270.66,28.65v39.19h-8.11V28.65h8.11Z"/>
+    <path class="cls-2" d="M305.83,29.93c2.44,1.28,4.35,3.18,5.72,5.69,1.37,2.51,2.06,5.55,2.06,9.1v23.11h-8.04v-21.9c0-3.51-.88-6.2-2.63-8.07-1.75-1.87-4.15-2.81-7.18-2.81s-5.44.94-7.22,2.81c-1.78,1.87-2.67,4.56-2.67,8.07v21.9h-8.11V28.65h8.11v4.48c1.33-1.61,3.02-2.87,5.09-3.77,2.06-.9,4.25-1.35,6.58-1.35,3.08,0,5.84.64,8.29,1.92Z"/>
+    <path class="cls-2" d="M329.83,35.26v21.69c0,1.47.34,2.53,1.03,3.16.69.64,1.86.96,3.52.96h4.98v6.76h-6.4c-3.65,0-6.45-.85-8.39-2.56-1.94-1.71-2.92-4.48-2.92-8.32v-21.69h-4.62v-6.61h4.62v-9.74h8.18v9.74h9.53v6.61h-9.53Z"/>
+    <path class="cls-2" d="M349.21,66.8c-2.44-1.11-4.37-2.63-5.8-4.55s-2.18-4.06-2.28-6.44h8.39c.14,1.66.94,3.05,2.38,4.16,1.45,1.11,3.26,1.67,5.44,1.67s4.04-.44,5.3-1.32c1.26-.88,1.88-2,1.88-3.38,0-1.47-.7-2.56-2.1-3.27-1.4-.71-3.62-1.49-6.65-2.35-2.94-.81-5.33-1.59-7.18-2.35-1.85-.76-3.45-1.92-4.8-3.48s-2.03-3.63-2.03-6.19c0-2.09.62-3.99,1.85-5.72,1.23-1.73,3-3.09,5.3-4.09,2.3-1,4.94-1.49,7.93-1.49,4.46,0,8.05,1.13,10.77,3.38,2.73,2.25,4.18,5.32,4.37,9.21h-8.11c-.14-1.75-.85-3.15-2.13-4.2-1.28-1.04-3.01-1.56-5.19-1.56s-3.77.4-4.91,1.21c-1.14.81-1.71,1.87-1.71,3.2,0,1.04.38,1.92,1.14,2.63.76.71,1.68,1.27,2.77,1.67,1.09.4,2.7.91,4.84,1.53,2.84.76,5.18,1.53,7.01,2.31,1.82.78,3.4,1.93,4.73,3.45,1.33,1.52,2.01,3.53,2.06,6.04,0,2.23-.62,4.22-1.85,5.97-1.23,1.75-2.98,3.13-5.23,4.13-2.25,1-4.9,1.49-7.93,1.49s-5.84-.56-8.28-1.67Z"/>
+  </g>
+  <path class="cls-1" d="M212.75,0c-23.59,0-42.79,19.2-42.79,42.79s19.2,42.79,42.79,42.79,42.79-19.2,42.79-42.79S236.35,0,212.75,0ZM228.79,66.8c-.39-.84-.96-1.59-1.66-2.19,1.43-3.27,2.22-6.89,2.22-10.68,0-5.95-1.95-11.45-5.25-15.91.82-1.09,1.31-2.45,1.31-3.92,0-3.62-2.93-6.55-6.55-6.55-1.92,0-3.64.83-4.84,2.15-3.48-1.66-7.37-2.59-11.48-2.59-3.84,0-7.49.82-10.8,2.28-.49-.77-1.12-1.44-1.87-1.95,4.33-11.57,15.5-19.84,28.57-19.84,16.82,0,30.5,13.68,30.5,30.5,0,13.18-8.41,24.43-20.14,28.68ZM178.62,53.93c0-5.65,1.99-10.82,5.27-14.92.22.08.44.15.67.21.57,17.63,14.65,31.9,32.21,32.75.11.29.25.57.4.84-4.05,3.15-9.12,5.04-14.63,5.04-13.19,0-23.92-10.73-23.92-23.92ZM192.76,32.89c0-.25-.02-.5-.05-.75,3-1.36,6.33-2.13,9.84-2.13s6.99.8,10.05,2.22c-.18.6-.28,1.23-.28,1.88,0,3.62,2.93,6.55,6.55,6.55,1.1,0,2.13-.27,3.04-.75,2.86,3.94,4.56,8.79,4.56,14.02,0,3.31-.69,6.45-1.91,9.32-.54-.15-1.11-.23-1.7-.23-3.27,0-5.97,2.4-6.46,5.53-15.52-1.03-27.9-13.71-28.44-29.36,2.76-.77,4.79-3.3,4.79-6.3ZM212.75,3.11c3.72,0,7.31.53,10.73,1.49-1.65-.25-3.33-.38-5.05-.38-14.56,0-27,9.23-31.79,22.14-.15,0-.29-.02-.44-.02-3.62,0-6.55,2.93-6.55,6.55,0,1.75.69,3.34,1.81,4.52-3.58,4.56-5.73,10.29-5.73,16.53,0,1.29.1,2.56.28,3.81-1.89-4.62-2.93-9.66-2.93-14.95,0-21.88,17.8-39.68,39.68-39.68ZM212.75,82.47c-4.08,0-8.01-.62-11.72-1.77.5.03,1,.04,1.51.04,6.26,0,12.03-2.17,16.6-5.78,1.06.73,2.34,1.16,3.72,1.16,3.41,0,6.2-2.6,6.52-5.93,12.85-4.4,22.25-16.3,22.92-30.45.08,1.01.13,2.02.13,3.05,0,21.88-17.8,39.68-39.68,39.68Z"/>
+</svg>
+</div>
+<h1 class="mb-4 text" id="title-h1" >Latin America Healthcare Research Network</h1>
+<h4 class="animate-h2 mb-4" style="max-width: 600px;font-weight: 400;">Endpoints is the Leading Network of Clinical Research Centers in Latin America. Sponsors and CROs trusted partner to deliver high-quality clinical, epidemiological, and public health research</h4>
+<a class="btn  btn-endpoints mb-4 "  href="https://endpoints1.odoo.com/contactus"> Request for Proposal</a>
+
+</div>
+</div>
+</div>
+</section>
+
+<section  style="position: relative;">
+  <div class="text-center" style="align-self:start;">
+<h2 class="section-title">About Us</h2>
+<div class="circle" style="width: 20px;height: 20px;margin:0 auto; ; border-radius: 100%;background: #17dddb"></div></div>
+  <div class="text-center" style="align-self:start;position:absolute;top:10;width: 100%;height: 100%;z-index: 0;">
+
+<div class="line-one" style="margin:0 auto;width:1px; background: linear-gradient(to bottom, #17dddb 40%,  #1958F4 60%); background-attachment: fixed;"></div>
+</div>
+<div class="container-fluid" style="z-index: 5;">
+<div class="row row-padding g-8" style="margin-top: 100px">
+<div class="col-md-6  " style="z-index: 5;">
+<h3 class="one-liner reveal-paragraph mb-4">Accelerating Innovative Treatments and Driving Impact in Latin America</h3>
+
+
+</div>
+<div class="col-md-5"style="z-index: 5;" >
+<div class="slider-about">
+<p class="font-huge slide-about active">EndPoints is a top-tier network of clinical research centers in Latin America. We lead the way in delivering high-quality clinical, epidemiological, and public health research—helping transform science into real health solutions.</p>
+<p class="font-huge slide-about">With 100+ trials completed, 50,000+ participants enrolled, and partnerships with 30+ global sponsors, our network is powered by 400+ experts across 9 centers of excellence in Panama, Colombia, and Guatemala</p>
+<div class="point-btn active"></div>
+<div class="point-btn"></div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+<section class="section-slide bg-light-endpoints" style="position: relative;overflow: visible;z-index: 1;">
+<div class="text-center" style="align-self:start;margin-top: 0;">
+<div class="circle" style="width: 20px;height: 20px;margin:0 auto;border-radius: 100%;background: #1958F4 "></div>
+<h2 class="section-title">Therapeutic Focus</h2>
+
+</div>
+
+<div class="container-fluid" style="overflow: visible;margin:0;padding: 0;">
+<div class="row row-padding g-1" style="overflow: visible;">
+<div class="col-md-3">
+<div class="t-areas rotate-card"  style="  background-image: 
+    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%  , rgba(37, 39, 46, 0)),
+    url('https://ik.imagekit.io/lsmaggiore/endpoints/vaccine.webp?updatedAt=1752883494029'); 
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;">
+<h3>Infectious Diseases and Vaccines</h3>
+<p>     
+COVID-19, RSV, Dengue, Poliovirus, Norovirus, Influenza, Pneumococcus, Chikungunya, HIV, Meningitis, Hepatitis A, Herpesvirus, HPV, Pertussis, Varicella, Zika Virus, others.
+ </p>
+</div>
+</div>
+<div class="col-md-3" >
+<div class="t-areas rotate-card" style="  background-image: 
+    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%, rgba(37, 39, 46, 0)),
+    url('https://ik.imagekit.io/lsmaggiore/endpoints/cardiology.webp?updatedAt=1752883432731');  
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;">
+<h3>Cardiology</h3>
+<p>     
+Hypertension, Dyslipidemia, Heart failure, Arrhythmias, Post-acute MI, Devices      
+</p>
+</div>
+</div>
+<div class="col-md-3" >
+<div class="t-areas rotate-card" style="  background-image: 
+    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%, rgba(37, 39, 46, 0)),
+    url('https://ik.imagekit.io/lsmaggiore/endpoints/cardiology.webp?updatedAt=1752883432731'); 
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;">
+<h3>Endocrinology and Metabolism</h3>
+<p>     
+                        Diabetes, Obesity, Other Hormonal Disorders
+                    </p>
+</div></div>
+<div class="col-md-3" >
+<div class="t-areas rotate-card " style="  background-image: 
+    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%,  rgba(37, 39, 46, 0)),
+    url('https://ik.imagekit.io/lsmaggiore/endpoints/neurology.webp?updatedAt=1752883432949');  
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;">
+<h3>Neurology and Psychiatry</h3>
+<p>     
+ Depression, Epilepsy, Migraine, Alzheimer’s Disease, Parkinson’s Disease
+</p>
+</div></div>
+</div>
+</div>
+</section>
+<section class=" section-slide"  style="position: relative;">
+
+<div class="container-fluid" style="overflow: visible;">
+  <div class="row  g-4 justify-content-center row-padding">
+<div class="col-md-4" style="height: 100%;align-content: end;" >
+
+  <h2  class="title-huge" style="text-align: start;">Experience </br>Snapshot</h2>
+  </div>  
+<div class="col-md-8" >
+  <div class="container-fluid">
+<div class="row   ">
+<div class="col-md-4" >
+    <div class="stat-card">
+<h3><span class="stat-title">100+ </span>
+<div class="line-stat"></div>
+Clinical Trials</h3>
+</div>
+</div>
+<div class="col-md-4 " >
+  <div class="stat-card">
+<h3><span class="stat-title">50,000+</span>
+<div class="line-stat"></div>
+ Participants</h3>
+  </div>
+</div>
+<div class="col-md-4 " >
+   <div class="stat-card">
+<h3><span class="stat-title">30+ </span>
+<div class="line-stat"></div>
+Sponsors and CROs</h3>
+  </div>
+</div>
+<div class="col-md-4" >
+     <div class="stat-card">
+
+<h3><span class="stat-title">400+ </span>
+<div class="line-stat"></div>
+Experts</h3>
+  </div>
+
+</div>
+<div class="col-md-4 " >
+    <div class="stat-card">
+<h3><span class="stat-title">9 </span>
+
+<div class="line-stat"></div>
+Clinical Research Centers</h3>
+  </div>
+
+</div>
+<div class="col-md-4 " >
+    <div class="stat-card">
+      <h3><span class="stat-title">&lt;4%</span>
+      <div class="line-stat"></div>
+  Drop-Off Rate</h3></div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-slide"  >
+
+<div class="container-fluid">
+  <div class="row row-padding">
+    <div class="col-md-6">
+            <div style="position: absolute;left: 22vw;opacity: 0.4; z-index: 0;" ><img style="width: 500px;height: auto;" src="https://ik.imagekit.io/lsmaggiore/endpoints/latam-map-blue.png?updatedAt=1752610119396"  class="img-fluid latam-map"></div>
+      <h2 class="latam-text title-huge mt-5 mb-5" style="position: relative; z-index: 1;"></br>We are</br><span class="gradient-text"> LATAM</span>´s Benchmark</h2>  
+    </div>
+    <div class="col-md-6"  style="position: relative; z-index: 1;">
+      <p> Faster, smarter feasibility through advanced data tools</p><div class="line-stat"></div>
+
+    <p> Centralized start-up and streamlined site activation</p><div class="line-stat"></div>
+
+        <p> A single point of contact for seamless collaboration</p><div class="line-stat"></div>
+
+            <p> Networked centers, aligned on quality and process</p><div class="line-stat"></div>
+            <a class="btn btn-endpoints mt-2"  href="https://endpoints1.odoo.com/contactus"> Our Network</a>
+
+
+    </div>
+  </div>
+</div>
+</section>
+<section class="align-items-center" style="align-content: center;position: relative; align-content: center;height: 100vh;"  >
+
+<div class="container-fluid align-items-center" style="position: relative;z-index: 1;"  >
+  <div class="row row-padding justify-content-end " >
+    <div class="col-md-9 " >
+          <p class="section-title">Proven Impact</p>
+
+            <p style="font-size: 3.2vw;line-height: 3.5vw;font-weight: 600;">  We’ve helped develop 15+ approved vaccines, collaborated with WHO, NIH, and top pharma companies, and consistently delivered on quality—with zero critical audit findings, including from the FDA.</p>
+
+    </div>
+    </div>
+  
+
+  </div>
+    <div class="logo-grid-proven " style="position:absolute;top: 0;z-index: 0;height: 100%;align-content: center;overflow: visible;">
+  <div class="row justify-content-left row-padding  g-4 g-logos logo-grid-inner"  style="overflow: visible;height: 100%; max-width: 60vw;">
+    <!-- Pharma & Biotech -->
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/astrazeneca.png?updatedAt=1751900985454" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/hillevax.jpg?updatedAt=1751900985032" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/msd.jpg?updatedAt=1751900984600" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/clover.png?updatedAt=1751900984177" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/gsk.png?updatedAt=1751900983771" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/moderna.png?updatedAt=1751900983311" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/jansenn.png?updatedAt=1751900982509" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/bms.png?updatedAt=1751900982101" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/alios.png?updatedAt=1751900981670" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/novartis.png?updatedAt=1751900981257" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/novocuff.png?updatedAt=1751900980812" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/pfizer.png?updatedAt=1751900980122" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/takeda.png?updatedAt=1751900978570" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/urevac.png?updatedAt=1751900978107" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/sanofi.png?updatedAt=1751900977651" loading="lazy"></div>
+     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/rivermark.png?updatedAt=1751900976961" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/vaxxinity.png?updatedAt=1751900976542" loading="lazy"></div>
+
+    <!-- CROs -->
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/icon.png?updatedAt=1751900996729" loading="lazy"></div>
+         <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/ppd.png?updatedAt=1751900996700" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/iqvia.png?updatedAt=1751900996686" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/vaxtrials.png?updatedAt=1751900996684" loading="lazy"></div>
+         <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+
+              <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+
+                   <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/syneos.png?updatedAt=1751900996620" loading="lazy"></div>
+
+    <!-- Institutes & NGOs -->
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/st%20jude%20childrens%20research%20hospital.png?updatedAt=1751901033407" loading="lazy"></div>
+ 
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/universidad%20del%20valle.jpg?updatedAt=1751901033250" loading="lazy"></div>
+           <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/statens%20serum%20institute.png?updatedAt=1751901033081" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/universida%20de%20panama.png?updatedAt=1751901033033" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/u%20of%20connecticut.png?updatedAt=1751901033038" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/salud.png?updatedAt=1751901032971" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/international%20vaccine%20institute.png?updatedAt=1751901031081" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/pho.png?updatedAt=1751901031390" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/path.png?updatedAt=1751901031046" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/fundacion%20valle%20de%20lili.png?updatedAt=1751901030993" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/cdc.png?updatedAt=1751901029058" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/yale%20university.png?updatedAt=1751901028869" loading="lazy"></div>
+    <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/universita%20di%20siena.png?updatedAt=1751901028834" loading="lazy"></div>
+  </div>
+</div>
+
+</section>
+
+<footer  style="height: 50vh;"></footer>
+<script>
+
+
+const slideAbout = document.querySelectorAll(".slide-about");
+const slideAboutBtns = document.querySelectorAll(".point-btn");
+
+let currentIndex = 0;
+let autoSlideInterval;
+let isHovered = false;
+
+// Función para cambiar el slide
+function changeSlide(index) {
+  if (index === currentIndex) return; // Evitar doble clic en el activo
+
+  slideAbout.forEach((slide) => {
+    slide.classList.add("exit");
+    setTimeout(() => {
+      slide.classList.remove("active");
+      slide.classList.remove("exit");
+    }, 200);
+  });
+
+  slideAboutBtns.forEach((btn) => btn.classList.remove("active"));
+
+  setTimeout(() => {
+    slideAbout[index].classList.add("active");
+    slideAboutBtns[index].classList.add("active");
+  }, 200);
+
+  currentIndex = index;
+}
+
+// Auto slide
+function startAutoSlide() {
+  autoSlideInterval = setInterval(() => {
+    if (!isHovered) {
+      let nextIndex = (currentIndex + 1) % slideAbout.length;
+      changeSlide(nextIndex);
+    }
+  }, 4000);
+}
+
+// Reiniciar el intervalo (útil tras clic manual)
+function resetAutoSlide() {
+  clearInterval(autoSlideInterval);
+  startAutoSlide();
+}
+
+// Eventos de botones manuales
+slideAboutBtns.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    if (btn.classList.contains('active')) return; // Bloquea clic repetido
+    changeSlide(index);
+    resetAutoSlide(); // ✅ Reinicia el temporizador tras clic
+  });
+});
+
+// Hover para pausar
+slideAbout.forEach((slide) => {
+  slide.addEventListener("mouseover", () => {
+    isHovered = true;
+  });
+  slide.addEventListener("mouseout", () => {
+    isHovered = false;
+  });
+});
+
+// Iniciar al cargar
+startAutoSlide();
+
+          const content = document.querySelector('.boton-content');
+  const bg = document.querySelector('.boton-bg');
+
+ 
+ // use a script tag or an external JS file
+ document.addEventListener("DOMContentLoaded", (event) => {
+  gsap.registerPlugin(ScrollTrigger,ScrollSmoother,SplitText,TextPlugin,ExpoScaleEase,MotionPathPlugin)
+ScrollSmoother.create({wrapper:'#smooth-wrapper',content:'#smooth-content',smooth:1.2,effects:true});
+
+
+  // Referencias
+  const circleA1 = document.querySelector("#circleA1 circle");
+  const circleA2 = document.querySelector("#circleA2 circle");
+  const circleB = document.querySelector("#circleB circle");
+
+  // Datos órbitas
+  const orbitA = { cx: 285, cy: 214.4, r: 199.5 };
+  const orbitB = { cx: 186.1, cy: 317.7, r: 156.4 };
+
+  function animateOrbit(circle, orbit, duration, offsetDegrees) {
+    gsap.to(circle, {
+      duration: duration,
+      repeat: -1,
+      ease: "none",
+      motionAngle: 0, // para control
+      onUpdate: function () {
+        const progress = this.progress();
+        const angle = (progress * 360 + offsetDegrees) * (Math.PI / 180);
+        const x = orbit.cx + orbit.r * Math.cos(angle);
+        const y = orbit.cy + orbit.r * Math.sin(angle);
+        circle.setAttribute("cx", x);
+        circle.setAttribute("cy", y);
+      }
+    });
+  }
+
+  // Animaciones con offset para que terminen en su posición original
+  animateOrbit(circleA1, orbitA, 6, 180);     // círculo A1
+  animateOrbit(circleA2, orbitA, 6, 90);      // círculo A2
+  animateOrbit(circleB, orbitB, 6, 300);      // círculo B
+
+
+  // Referencias
+  const circleA12 = document.querySelector("#circleA12 circle");
+  const circleA22 = document.querySelector("#circleA22 circle");
+  const circleB2 = document.querySelector("#circleB2 circle");
+
+  // Datos órbitas
+  const orbitA2 = { cx: 285, cy: 214.4, r: 199.5 };
+  const orbitB2 = { cx: 186.1, cy: 317.7, r: 156.4 };
+
+  // Animaciones con offset para que terminen en su posición original
+  animateOrbit(circleA12, orbitA2, 6, 180);     // círculo A1
+  animateOrbit(circleA22, orbitA2, 6, 90);      // círculo A2
+  animateOrbit(circleB2, orbitB2, 6, 300);      // círculo B
+
+
+document.fonts.ready.then(()=>{
+
+  let split = SplitText.create(".text",{
+    type: "chars, words, lines",
+    wordsClass: "word++"
+
+  })
+
+
+
+
+  gsap.from(split.chars, {
+    x: 100,
+    autoAlpha:0,
+    delay:1,
+    stagger: 0.02
+
+  })
+
+  let splith2 = SplitText.create(".animate-h2",{
+    type: "chars, words, lines",
+
+  })
+  gsap.from(splith2.words, {
+        delay:2,
+    x: 200,
+    autoAlpha:0,
+    stagger: {
+        amount:0.1,
+        from:"end"
+
+    }
+
+  })
+
+ 
+    
+})
+  // gsap code here!
+
+gsap.utils.toArray(".stat-title").forEach((el) =>{
+  gsap.from(el,
+    {
+      letterSpacing: "10px",
+      opacity:0,
+      x:-200,
+           duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: el,
+            start: "top 90%",
+        end: "bottom 70%",
+   
+      }
+
+    }
+  )
+});
+
+
+
+    gsap.fromTo(".latam-map",
+    {
+      y:100,
+    },
+    {
+      y:-100,
+      scrollTrigger: {
+        trigger: ".latam-map",
+        start: "top 100%",
+        end: "bottom 0%",
+        scrub: true,  
+      }, 
+
+    })
+
+      gsap.fromTo(".latam-text",
+    {
+    
+      y:50,
+    },
+    
+    {
+      y:-50,
+      scrollTrigger: {
+        trigger: ".latam-text",
+        start: "top 100%",
+        end: "bottom 0%",
+        scrub: true,  
+      }, 
+
+    })
+
+gsap.from(".logo-appear",{
+  y:250,
+  autoAlpha:0,
+  duration:2,
+  ease: "power2.out",
+
+
+})
+    gsap.utils.toArray(".scroll-animate-left").forEach((el) => {
+      gsap.fromTo(el,
+        { x: 100, opacity: 0, filter: "blur(10px)" },
+        {
+          x: 0,
+          opacity: 1,
+          filter: "blur(0px)",
+          duration: 1,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 80%",
+            toggleActions: "play none none none",
+          },
+        });
+    });
+
+
+
+    gsap.fromTo(".line-one",
+    {
+      height:0,
+    },
+    {
+     height:"100vh",
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".line-one",
+        start: "top 50%",
+        end: "bottom -50%",
+        scrub: true,  
+      }, 
+    })
+  
+    gsap.fromTo(".video-scroll",{
+      y: 0,
+    },
+    {
+      y: -500,
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".video-scroll",
+        start: "top top",
+        end: "bottom top",
+        scrub: true,  
+      }
+
+    },
+    
+    {
+
+
+    })
+    gsap.fromTo(".video-scroll2",{
+      y: 0,
+    },
+    {
+      y: -60,
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".video-scroll2",
+        start: "top top",
+        end: "bottom top",
+        scrub: true,  
+      }
+
+    },
+    
+    {
+
+
+    })
+gsap.utils.toArray(".line-stat").forEach((el,i) => {
+  gsap.from(el,{
+    width:"0%",
+     duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: el,
+        
+      }
+  }
+  )
+});
+
+gsap.utils.toArray(".section-slide").forEach((el)=>{
+
+  gsap.fromTo(el,{
+  y:"200px",
+
+  },{
+ y:"0", 
+ scrollTrigger: {
+        trigger: el,
+        end: "bottom 100%",
+        scrub: true,  
+      }
+  })
+})
+gsap.utils.toArray(".logo-item").forEach((item, i) => {
+  gsap.fromTo(item, 
+    { y: 100, opacity: 0.4 },
+    { 
+      y: -100,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: item,
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+      }
+    }
+  );
+});
+
+gsap.utils.toArray(".rotate-card").forEach((el) => {
+  // Animación principal
+  gsap.fromTo(el,
+    {
+      y: 200,
+      rotationY: 40,
+      transformPerspective: 1000,
+      transformOrigin: "center"
+    },
+    {
+      y: 0,
+      rotationY: 0,
+      transformPerspective: 1000, // mantiene la perspectiva durante la animación
+      scrollTrigger: {
+        trigger: el,
+        end: "top 70%",
+        scrub: true,
+      }
+    }
+  );
+
+
+});
+ });
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+
+<!-- ScrollSmoother requires ScrollTrigger -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+<!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/EasePack.min.js"></script>
+</div></div></body>
+</html>
