@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Endpoints Maqueta</title>
+<title>Maqueta Endpoints</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
 </head>
@@ -25,6 +25,11 @@
 </div>
 </nav>
 <section class="header " style="height: 100vh;background:linear-gradient(to top,  rgb(250, 254, 255) 20%, rgb(216, 218, 236) 60%, #1958F4); align-content: end;padding: 0;">
+      <div class="fixed-top  " style=" width: 100%; height: 99vh;  z-index: 0;opacity: 1;background:linear-gradient(to left, #1958F4, #72cfce  );">  
+    </div>
+  
+  <div class="fixed-top  " style=" width: 100%; height: 100vh;  z-index: 1;opacity: 1;background:linear-gradient(to top,  rgb(250, 254, 255) 30%,rgba(250, 254, 255,0.8) 60%, rgba(216, 218, 236,0) );">  
+    </div>
   <div class="fixed-top video-scroll2 justify-content-end" style=" width: 100%; height: 100vh;  z-index: 1;opacity: 1;">  
  <svg class="animate-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 510 510" >
   <defs>
@@ -87,13 +92,13 @@
   </g>
 </svg>
 </div>
-<div class="container-fluid mb-5   " style="position:relative;  overflow: visible;z-index: 2;">
+<div class="container-fluid slide-up " style="position:relative;  overflow: visible;z-index: 2;margin-bottom: 100px;">
 <div class="row row-padding " style="overflow: visible;">
  
 
-<div class="col-md-9" style="overflow: visible;">
+<div class="col-12" style="overflow: visible;">
  
-<div class="logo-appear" style="max-width: 10vw;margin-bottom: 80px;margin-left: 10px;">
+<div class="logo-appear mb-5" style="max-width: 300px; width: 20vw;min-width: 200px;  margin-left: 0.1rem;">
   <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 372.5 85.58">
   <defs>
 
@@ -103,7 +108,7 @@
       }
 
       .cls-2 {
-        fill: #5c6266;
+        fill: #333;
       }
     </style>
     <radialGradient id="radial-gradient" cx="202.36" cy="53.68" fx="202.36" fy="53.68" r="48.11" gradientUnits="userSpaceOnUse">
@@ -126,16 +131,31 @@
   <path class="cls-1" d="M212.75,0c-23.59,0-42.79,19.2-42.79,42.79s19.2,42.79,42.79,42.79,42.79-19.2,42.79-42.79S236.35,0,212.75,0ZM228.79,66.8c-.39-.84-.96-1.59-1.66-2.19,1.43-3.27,2.22-6.89,2.22-10.68,0-5.95-1.95-11.45-5.25-15.91.82-1.09,1.31-2.45,1.31-3.92,0-3.62-2.93-6.55-6.55-6.55-1.92,0-3.64.83-4.84,2.15-3.48-1.66-7.37-2.59-11.48-2.59-3.84,0-7.49.82-10.8,2.28-.49-.77-1.12-1.44-1.87-1.95,4.33-11.57,15.5-19.84,28.57-19.84,16.82,0,30.5,13.68,30.5,30.5,0,13.18-8.41,24.43-20.14,28.68ZM178.62,53.93c0-5.65,1.99-10.82,5.27-14.92.22.08.44.15.67.21.57,17.63,14.65,31.9,32.21,32.75.11.29.25.57.4.84-4.05,3.15-9.12,5.04-14.63,5.04-13.19,0-23.92-10.73-23.92-23.92ZM192.76,32.89c0-.25-.02-.5-.05-.75,3-1.36,6.33-2.13,9.84-2.13s6.99.8,10.05,2.22c-.18.6-.28,1.23-.28,1.88,0,3.62,2.93,6.55,6.55,6.55,1.1,0,2.13-.27,3.04-.75,2.86,3.94,4.56,8.79,4.56,14.02,0,3.31-.69,6.45-1.91,9.32-.54-.15-1.11-.23-1.7-.23-3.27,0-5.97,2.4-6.46,5.53-15.52-1.03-27.9-13.71-28.44-29.36,2.76-.77,4.79-3.3,4.79-6.3ZM212.75,3.11c3.72,0,7.31.53,10.73,1.49-1.65-.25-3.33-.38-5.05-.38-14.56,0-27,9.23-31.79,22.14-.15,0-.29-.02-.44-.02-3.62,0-6.55,2.93-6.55,6.55,0,1.75.69,3.34,1.81,4.52-3.58,4.56-5.73,10.29-5.73,16.53,0,1.29.1,2.56.28,3.81-1.89-4.62-2.93-9.66-2.93-14.95,0-21.88,17.8-39.68,39.68-39.68ZM212.75,82.47c-4.08,0-8.01-.62-11.72-1.77.5.03,1,.04,1.51.04,6.26,0,12.03-2.17,16.6-5.78,1.06.73,2.34,1.16,3.72,1.16,3.41,0,6.2-2.6,6.52-5.93,12.85-4.4,22.25-16.3,22.92-30.45.08,1.01.13,2.02.13,3.05,0,21.88-17.8,39.68-39.68,39.68Z"/>
 </svg>
 </div>
-<h1 class="mb-4 text" id="title-h1" >Latin America Healthcare Research Network</h1>
-<h4 class="animate-h2 mb-4" style="max-width: 600px;font-weight: 400;">Endpoints is the Leading Network of Clinical Research Centers in Latin America. Sponsors and CROs trusted partner to deliver high-quality clinical, epidemiological, and public health research</h4>
-<a class="btn  btn-endpoints mb-4 "  href="https://endpoints1.odoo.com/contactus"> Request for Proposal</a>
+<h1 class="mb-4 text" id="title-h1" >Latin America </br>Healthcare</br> Research Network</h1>
 
+<div class="container-fluid" style="padding: 0;"> <!-- Asume altura total para demostrar -->
+  <div class="row g-4 justify-content-between align-items-end" style="height: 100%;">
+    
+    <!-- Columna de texto -->
+    <div class="col-xxl-7 d-flex align-items-end" style="max-width: 630px; height: 100%;">
+      <h4 class="animate-h2" style="font-weight: 400;">
+        Endpoints is the Leading Network of Clinical Research Centers in Latin America. Sponsors and CROs trusted partner to deliver high-quality clinical, epidemiological, and public health research
+      </h4>
+    </div>
+
+    <!-- Columna del botón -->
+    <div class="col-xxl-5  d-flex flex-column justify-content-end" style="max-width: 300px; height: 100%; padding: 0;padding-bottom:14px">
+     <p class="only-xl">-></p> <a id="btn-hero" class="btn btn-endpoints" href="https://endpoints1.odoo.com/contactus">Request for Proposal</a>
+    </div>
+
+  </div>
+</div>
 </div>
 </div>
 </div>
 </section>
 
-<section  style="position: relative;">
+<section  class="section-gy section-slide" style="position: relative;padding-bottom: 300px;">
   <div class="text-center" style="align-self:start;">
 <h2 class="section-title">About Us</h2>
 <div class="circle" style="width: 20px;height: 20px;margin:0 auto; ; border-radius: 100%;background: #17dddb"></div></div>
@@ -163,7 +183,7 @@
 
 </section>
 
-<section class="section-slide bg-light-endpoints" style="position: relative;overflow: visible;z-index: 1;">
+<section class="section-slide  bg-light-endpoints" style="position: relative;overflow: visible;z-index: 1;">
 <div class="text-center" style="align-self:start;margin-top: 0;">
 <div class="circle" style="width: 20px;height: 20px;margin:0 auto;border-radius: 100%;background: #1958F4 "></div>
 <h2 class="section-title">Therapeutic Focus</h2>
@@ -174,7 +194,7 @@
 <div class="row row-padding g-1" style="overflow: visible;">
 <div class="col-md-3">
 <div class="t-areas rotate-card"  style="  background-image: 
-    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%  , rgba(37, 39, 46, 0)),
+    linear-gradient(to bottom, rgb(33, 48, 105) 30%  , rgba(115, 199, 255, 0.5)),
     url('https://ik.imagekit.io/lsmaggiore/endpoints/vaccine.webp?updatedAt=1752883494029'); 
 
   background-size: cover;
@@ -188,8 +208,7 @@ COVID-19, RSV, Dengue, Poliovirus, Norovirus, Influenza, Pneumococcus, Chikungun
 </div>
 <div class="col-md-3" >
 <div class="t-areas rotate-card" style="  background-image: 
-    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%, rgba(37, 39, 46, 0)),
-    url('https://ik.imagekit.io/lsmaggiore/endpoints/cardiology.webp?updatedAt=1752883432731');  
+linear-gradient(to bottom, rgb(33, 48, 105) 30%  , rgba(115, 199, 255, 0.5)),    url('https://ik.imagekit.io/lsmaggiore/endpoints/cardiology.webp?updatedAt=1752883432731');  
 
   background-size: cover;
   background-position: center;
@@ -202,8 +221,7 @@ Hypertension, Dyslipidemia, Heart failure, Arrhythmias, Post-acute MI, Devices
 </div>
 <div class="col-md-3" >
 <div class="t-areas rotate-card" style="  background-image: 
-    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%, rgba(37, 39, 46, 0)),
-    url('https://ik.imagekit.io/lsmaggiore/endpoints/cardiology.webp?updatedAt=1752883432731'); 
+linear-gradient(to bottom, rgb(33, 48, 105) 30%  , rgba(115, 199, 255, 0.5)),    url('https://ik.imagekit.io/lsmaggiore/endpoints/endocrinology.webp?updatedAt=1752883432730'); 
 
   background-size: cover;
   background-position: center;
@@ -215,8 +233,7 @@ Hypertension, Dyslipidemia, Heart failure, Arrhythmias, Post-acute MI, Devices
 </div></div>
 <div class="col-md-3" >
 <div class="t-areas rotate-card " style="  background-image: 
-    linear-gradient(to bottom, rgba(37, 39, 46, 1) 30%,  rgba(37, 39, 46, 0)),
-    url('https://ik.imagekit.io/lsmaggiore/endpoints/neurology.webp?updatedAt=1752883432949');  
+linear-gradient(to bottom, rgb(33, 48, 105) 30%  , rgba(115, 199, 255, 0.5)),    url('https://ik.imagekit.io/lsmaggiore/endpoints/neurology.webp?updatedAt=1752883432949');  
 
   background-size: cover;
   background-position: center;
@@ -229,13 +246,13 @@ Hypertension, Dyslipidemia, Heart failure, Arrhythmias, Post-acute MI, Devices
 </div>
 </div>
 </section>
-<section class=" section-slide"  style="position: relative;">
+<section class=" section-slide section-gy"  style="position: relative;">
 
 <div class="container-fluid" style="overflow: visible;">
-  <div class="row  g-4 justify-content-center row-padding">
-<div class="col-md-4" style="height: 100%;align-content: end;" >
+  <div class="row  g-4 justify-content-center row-padding" style="align-content: center;">
+<div class="col-md-4" style="align-content: center;" >
 
-  <h2  class="title-huge" style="text-align: start;">Experience </br>Snapshot</h2>
+  <h2  class="one-liner" style="text-align: start;">Experience </br>Snapshot</h2>
   </div>  
 <div class="col-md-8" >
   <div class="container-fluid">
@@ -292,15 +309,17 @@ Clinical Research Centers</h3>
 </div>
 </div>
 </section>
-<section class="section-slide"  >
+<section class="section-slide section-gy"  >
 
 <div class="container-fluid">
-  <div class="row row-padding">
-    <div class="col-md-6">
-            <div style="position: absolute;left: 22vw;opacity: 0.4; z-index: 0;" ><img style="width: 500px;height: auto;" src="https://ik.imagekit.io/lsmaggiore/endpoints/latam-map-blue.png?updatedAt=1752610119396"  class="img-fluid latam-map"></div>
-      <h2 class="latam-text title-huge mt-5 mb-5" style="position: relative; z-index: 1;"></br>We are</br><span class="gradient-text"> LATAM</span>´s Benchmark</h2>  
+  <div class="row row-padding justify-content-between" style="align-items: center;overflow: visible;">
+    <div class="col-md-4">
+      <h2 class="latam-text title-huge mt-5 mb-5" style="position: relative; z-index: 1;">We are</br><span class="gradient-text"> LATAM</span>´s Benchmark</h2>  
     </div>
-    <div class="col-md-6"  style="position: relative; z-index: 1;">
+    <div class="col-md-2" style="position: relative;overflow: visible;">            
+      <div style="position: absolute; top:-250px; left:-13vw; opacity: 0.4; z-index: 0;" ><img style="width: 500px;height: auto;" src="https://ik.imagekit.io/lsmaggiore/endpoints/latam-map-blue.png?updatedAt=1752610119396"  class="img-fluid latam-map"></div>
+ </div>
+    <div class="col-md-6 "  style="position: relative; z-index: 1;">
       <p> Faster, smarter feasibility through advanced data tools</p><div class="line-stat"></div>
 
     <p> Centralized start-up and streamlined site activation</p><div class="line-stat"></div>
@@ -315,22 +334,13 @@ Clinical Research Centers</h3>
   </div>
 </div>
 </section>
-<section class="align-items-center" style="align-content: center;position: relative; align-content: center;height: 100vh;"  >
+<section class="align-items-center section-slide section-gy"  >
 
 <div class="container-fluid align-items-center" style="position: relative;z-index: 1;"  >
-  <div class="row row-padding justify-content-end " >
-    <div class="col-md-9 " >
-          <p class="section-title">Proven Impact</p>
-
-            <p style="font-size: 3.2vw;line-height: 3.5vw;font-weight: 600;">  We’ve helped develop 15+ approved vaccines, collaborated with WHO, NIH, and top pharma companies, and consistently delivered on quality—with zero critical audit findings, including from the FDA.</p>
-
-    </div>
-    </div>
-  
-
-  </div>
-    <div class="logo-grid-proven " style="position:absolute;top: 0;z-index: 0;height: 100%;align-content: center;overflow: visible;">
-  <div class="row justify-content-left row-padding  g-4 g-logos logo-grid-inner"  style="overflow: visible;height: 100%; max-width: 60vw;">
+  <div class="row row-padding justify-content-end   g-8 "  >
+<div class="col-md-4"   >
+  <div class="logo-grid-proven " style="overflow: visible;">
+  <div class="row justify-content-left  g-5 logo-grid-inner"  style="overflow: visible; ">
     <!-- Pharma & Biotech -->
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/astrazeneca.png?updatedAt=1751900985454" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/hillevax.jpg?updatedAt=1751900985032" loading="lazy"></div>
@@ -347,27 +357,19 @@ Clinical Research Centers</h3>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/takeda.png?updatedAt=1751900978570" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/urevac.png?updatedAt=1751900978107" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/sanofi.png?updatedAt=1751900977651" loading="lazy"></div>
-     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+
 
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/rivermark.png?updatedAt=1751900976961" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/pharma-biotech/vaxxinity.png?updatedAt=1751900976542" loading="lazy"></div>
 
     <!-- CROs -->
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/icon.png?updatedAt=1751900996729" loading="lazy"></div>
-         <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+
 
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/ppd.png?updatedAt=1751900996700" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/iqvia.png?updatedAt=1751900996686" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/vaxtrials.png?updatedAt=1751900996684" loading="lazy"></div>
-         <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-
-              <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-
-                   <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+        
 
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/cros/syneos.png?updatedAt=1751900996620" loading="lazy"></div>
 
@@ -375,9 +377,7 @@ Clinical Research Centers</h3>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/st%20jude%20childrens%20research%20hospital.png?updatedAt=1751901033407" loading="lazy"></div>
  
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/universidad%20del%20valle.jpg?updatedAt=1751901033250" loading="lazy"></div>
-           <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
-     <div class="col-4 col-sm-3 col-md-2 logo-item"> </div>
+ 
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/statens%20serum%20institute.png?updatedAt=1751901033081" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/universida%20de%20panama.png?updatedAt=1751901033033" loading="lazy"></div>
     <div class="col-4 col-sm-3 col-md-2 logo-item"><img src="https://ik.imagekit.io/lsmaggiore/endpoints/logos/institutes%20and%20ngos/u%20of%20connecticut.png?updatedAt=1751901033038" loading="lazy"></div>
@@ -392,9 +392,124 @@ Clinical Research Centers</h3>
   </div>
 </div>
 
+
+</div>
+
+    <div class="col-md-8 " style="align-content: center;" >
+          <p class="section-title" style="margin-top: 0;">Proven Impact</p>
+
+            <p class="phrase-impact">  We’ve helped develop 15+ approved vaccines, collaborated with WHO, NIH, and top pharma companies, and consistently delivered on quality—with zero critical audit findings, including from the FDA.</p>
+
+    </div>
+
+
+    </div>
+  
+
+  </div>
+  
 </section>
 
-<footer  style="height: 50vh;"></footer>
+<section class="section-slide section-gy">
+  <div class="container-fluid">
+  <div class="row row-padding">
+    <div class="col-12">  
+      <h2 class="section-title">Our Strategic Drivers</h2>
+      <div class="container-fluid" style="padding: 0;">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 mb-4" >
+             <h3>Innovation</h3>
+             <div class="line-stat"></div>
+             <p>AI & data science power our research engine</p> 
+          </div>
+          <div class="col-lg-4 mb-4">
+             <h3>Excellence</h3>
+             <div class="line-stat"></div>
+             <p>GCP standards, optimized operations, high-integrity data</p> 
+          </div>
+          <div class="col-lg-4 mb-4">
+             <h3>Reach</h3>
+             <div class="line-stat"></div>
+             <p>Expanding across Latin America through site and population intelligence</p> 
+          </div> 
+          <div class="col-lg-6 mb-4">
+             <h3>Knowledge</h3>
+             <div class="line-stat"></div>
+             <p>KOL partnerships, education, and robust epidemiological insight</p> 
+          </div>  
+          <div class="col-lg-6 mb-4">
+             <h3>Growth</h3>
+             <div class="line-stat"></div>
+             <p>Diversified portfolios, strategic positioning, and knowledge sharing</p> 
+          </div>           
+        </div>
+     </div>
+    </div>
+
+     
+  </div>
+  </div>
+</section>
+
+
+<section class="section-slide section-gy">
+        <div class="container-fluid">
+          <div class="row row-padding">
+              <h2 class="section-title " >Our Core Values</h2>
+
+
+          </div>
+        <div class=" row row-padding g-5">
+          <div class="col-5">
+
+            <h2 class="one-liner">Transforming science into real solutions for health
+            </h2>
+          </div>
+          <div class="col-7">
+            <div class=" row ">
+          <div class="col-lg-6 mb-4" >
+             <h3>Ethics</h3>
+             <div class="line-stat"></div>
+          </div>
+          <div class="col-lg-6 mb-4">
+             <h3>Innovation</h3>
+             <div class="line-stat"></div>
+          </div>
+          <div class="col-lg-6 mb-4">
+             <h3>Empathy</h3>
+             <div class="line-stat"></div>
+          </div> 
+          <div class="col-lg-6 mb-4">
+             <h3>Commitment</h3>
+             <div class="line-stat"></div>
+          </div>  
+          <div class="col-lg-6 mb-4">
+             <h3>Solidarity</h3>
+             <div class="line-stat"></div>
+          </div>      
+              <div class="col-lg-6 mb-4">
+             <h3>Respect</h3>
+             <div class="line-stat"></div>
+          </div>      
+        </div>
+          
+          </div>
+
+        </div>
+
+      
+     </div>
+ 
+</section>
+
+
+<section  style="height: 50vh;">
+  <div style="font-size: 6vw;">
+    <a href="#" id="buttonRequest">
+  <p  style="display: inline-flex;">Request for Proposal </p><p class="arrowOne" style="display: inline-flex;">-></p><div id="circleRequest" style="overflow: hidden; position: relative; margin:auto;display: inline-flex; width: 6vw;height:  6vw;transform: translateY(1.1vw) ; border-radius: 100%; background-color: #1958F4;"><p class="arrowTwo" style=" position: absolute;top:-1.8vw;right: 0.04vw; color: white;transform: translateX(-6vw)">-></p></div>
+    </a>
+</div>
+</section>
 <script>
 
 
@@ -489,7 +604,6 @@ ScrollSmoother.create({wrapper:'#smooth-wrapper',content:'#smooth-content',smoot
       duration: duration,
       repeat: -1,
       ease: "none",
-      motionAngle: 0, // para control
       onUpdate: function () {
         const progress = this.progress();
         const angle = (progress * 360 + offsetDegrees) * (Math.PI / 180);
@@ -521,6 +635,7 @@ ScrollSmoother.create({wrapper:'#smooth-wrapper',content:'#smooth-content',smoot
   animateOrbit(circleA22, orbitA2, 6, 90);      // círculo A2
   animateOrbit(circleB2, orbitB2, 6, 300);      // círculo B
 
+ 
 
 document.fonts.ready.then(()=>{
 
@@ -541,26 +656,92 @@ document.fonts.ready.then(()=>{
 
   })
 
-  let splith2 = SplitText.create(".animate-h2",{
-    type: "chars, words, lines",
 
-  })
-  gsap.from(splith2.words, {
+  gsap.from((".animate-h2"), {
         delay:2,
-    x: 200,
+    x: 100,
+    duration: 1,
     autoAlpha:0,
-    stagger: {
-        amount:0.1,
-        from:"end"
-
-    }
+     ease: "power2.out",
+   
 
   })
 
  
     
 })
+
+
   // gsap code here!
+
+  
+    const button = document.getElementById("btn-hero");
+    const arrow = document.querySelector(".only-xl");
+    const column = button.closest(".col-xxl-5");
+
+    // Obtener la altura del contenedor para el movimiento
+    const columnHeight = column.offsetWidth;
+    const distance = columnHeight-40 ; // padding-bottom ya incluido
+
+    // Al entrar el mouse
+    button.addEventListener("mouseenter", () => {
+      gsap.to(arrow, {
+        x: distance,
+        duration: 1,
+        ease: "power2.out"
+      });
+    });
+
+    // Al salir el mouse
+    button.addEventListener("mouseleave", () => {
+      gsap.to(arrow, {
+        x: 0,
+        duration: 1,
+        ease: "power2.inOut"
+      });
+    });
+ 
+
+    const buttonRequest = document.getElementById("buttonRequest")
+    const arrowOne = document.querySelector(".arrowOne")
+    const arrowTwo = document.querySelector(".arrowTwo")
+    const circleRequest = document.getElementById("circleRequest")
+    
+    function arrowIn(){
+            gsap.to(arrowOne,{
+        x: "6vw",
+        duration: 0.5,
+        ease: "power2.out"
+       }       
+      )
+    gsap.to(arrowTwo,{
+        x: "-0.2vw",
+        duration: 0.5,
+        ease: "power2.out"
+       }       
+      )
+
+    }
+    function arrowOut(){
+    gsap.to(arrowOne,{
+        x: 0,
+        duration: 0.5,
+        ease: "power2.out"
+       }       
+      )
+    gsap.to(arrowTwo,{
+        x: "-6vw",
+        duration: 0.5,
+        ease: "power2.out"
+       }       
+      )
+
+
+    }
+    
+    buttonRequest.addEventListener("mouseenter",arrowIn)
+    buttonRequest.addEventListener("mouseleave",arrowOut)
+
 
 gsap.utils.toArray(".stat-title").forEach((el) =>{
   gsap.from(el,
@@ -581,39 +762,41 @@ gsap.utils.toArray(".stat-title").forEach((el) =>{
   )
 });
 
+gsap.fromTo(".slide-up",{
+
+  y:0,
+  autoAlpha:1,
+},{
+ y: -100,
+ autoAlpha:0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".video-scroll",
+        start: "bottom 60%",
+        end: "bottom top",
+        scrub: true,  
+      }
+
+
+});
 
 
     gsap.fromTo(".latam-map",
     {
-      y:100,
-    },
-    {
-      y:-100,
-      scrollTrigger: {
-        trigger: ".latam-map",
-        start: "top 100%",
-        end: "bottom 0%",
-        scrub: true,  
-      }, 
-
-    })
-
-      gsap.fromTo(".latam-text",
-    {
-    
       y:50,
     },
-    
     {
       y:-50,
       scrollTrigger: {
-        trigger: ".latam-text",
-        start: "top 100%",
-        end: "bottom 0%",
+        trigger: ".latam-map",
+        start: "top bottom",
+        end: "bottom top",
         scrub: true,  
       }, 
 
     })
+
+ 
 
 gsap.from(".logo-appear",{
   y:250,
@@ -711,10 +894,12 @@ gsap.utils.toArray(".line-stat").forEach((el,i) => {
 gsap.utils.toArray(".section-slide").forEach((el)=>{
 
   gsap.fromTo(el,{
-  y:"200px",
-
+  y:100,
+  scale:1.02,
+  ease:"power2.out",  
   },{
- y:"0", 
+ y:0, 
+ scale:1,  
  scrollTrigger: {
         trigger: el,
         end: "bottom 100%",
@@ -722,6 +907,7 @@ gsap.utils.toArray(".section-slide").forEach((el)=>{
       }
   })
 })
+/*
 gsap.utils.toArray(".logo-item").forEach((item, i) => {
   gsap.fromTo(item, 
     { y: 100, opacity: 0.4 },
@@ -737,7 +923,7 @@ gsap.utils.toArray(".logo-item").forEach((item, i) => {
     }
   );
 });
-
+*/
 gsap.utils.toArray(".rotate-card").forEach((el) => {
   // Animación principal
   gsap.fromTo(el,
