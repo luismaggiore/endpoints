@@ -12,12 +12,10 @@ body{
 #smooth-content {
   will-change: transform;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Inter', sans-serif;color: #333;
 }
-p {
-    font-family: 'Inter', sans-serif;
-}
+
 a {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -29,44 +27,34 @@ h1 {
     color: #333;
 }
 h3{
-    font-size:2vw;
-      font-weight:500;
-      line-height: 2vw;
-      margin-bottom: 1rem;
+    font-size: clamp(32px, 2vw, 42px);
+    font-weight: 500;
+    line-height:clamp(30px, 2vw, 42px);
+    margin-bottom: 1rem;
 }
 
-p{
-  color:#333;
-}
 
-section{
-        align-content: center;    
-        padding-bottom: 100px;
+.logo-appear{
+max-width: 300px; width: 20vw;min-width: 150px;  margin-left: 0.1rem;
+
 }
 
 .title-huge{
-  font-size: 5vw;font-weight:600;
-  line-height: 5vw;
+  font-size: clamp(60px, 5vw, 6vw);
+  font-weight:600;
+  line-height: clamp(60px, 5vw, 6vw);
 }
 .phrase-impact{
-  font-size: 2vw;
-  font-weight: 600;
+  font-size: clamp(24px, 2vw, 60px);
+    font-weight: 400;
+    line-height:clamp(28px, 2.2vw, 65px);
 }
 .word4 div{
   background: -webkit-linear-gradient(#1958f4, #17dddb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.words2 div{
-      background: -webkit-linear-gradient(#1958f4, #17dddb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.words6 div{
-      background: -webkit-linear-gradient(#1958f4, #17dddb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .gradient-text{
   background: -webkit-linear-gradient(#1958f4, #17dddb) ;
   -webkit-background-clip: text;
@@ -74,52 +62,13 @@ section{
 
 }
 
-.boton-container {
-  margin: 10px auto; /* auto centra horizontalmente */
-  position: relative;
-  overflow: visible;
-  background-color: transparent; /* "none" no es un valor válido para background-color */
-  width: 200px;
-  height: 40px;
-  align-content: center;
-  border-radius: 0.375rem;
-  z-index: 2;
-}
 
-.boton-bg{
-background: linear-gradient(to right, #1958F4 0%, #1958F4 20%, #41A4DD 80%, #41A4DD 100%);
-position:absolute;
-top:0;left:0;height:40px;width:200px;
-z-index:-1; 
-transition: all 0.3s ease;
-}
-.boton-bg.hover-bg {
-   background: linear-gradient(to right, #1958F4 0%, #1958F4 20%, #41A4DD 80%, #41A4DD 100%);
-filter:blur(15px);
-  
-}
-.boton-content{
-  display: inline-block;
-  z-index:3;
-  font-weight: 400;
-  text-align: center;
-  vertical-align: middle;
-  user-select: none;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  cursor:pointer;
-  color:white;
-  width:200px;
-  height:40px;}
-.boton-content:hover{text-decoration:none;border: 1px solid rgba(255,255,255,0.3);}
 
 .t-areas{
-    height: 50vh;
+    height:clamp(320px, 50vh, 40vw);
     border-radius: 1.5rem;
     align-content: start;
-    padding:2vw;
+    padding:clamp(40px, 2vw, 50px);
 
   background-color: #25272e;
   color: white;
@@ -130,57 +79,24 @@ filter:blur(15px);
 .row{
     overflow:hidden;
 }
-.panel{
-    margin: 0 auto;
-}
-.header{
-    align-content: center;    
-    background-color: snow;
-}
-.header h1 {
-}
-.p-custom{
-    padding: 50px 6vw; 
-}
-.svg-logo{  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  opacity: 0.5; /* ajusta la visibilidad */
-  z-index: 1;
-  pointer-events: none; /* evita que interfiera con clics */
-}
-.svg-logo svg {
-  width: 200%;
-  height:   200%;
-
-;
-}
 
 
 
 
-/*
-About sion 
-*/
-.graph-card{
-    background-color:  snow;
-    padding:3em;
-    border-radius:20px;
-    z-index: 0;
-    align-content: center;
-     position: relative;
-  overflow: hidden;
-}
+
+
+
+
+
 .font-huge{
-    font-size: 2vw;
+    font-size: clamp(18px, 2vw, 42px);
     font-weight: 300;
-    line-height: 2vw;
+    line-height:clamp(21px, 2vw, 42px);
 
 }
 .one-liner{
-    font-size:3.8vw;
-    line-height: 3.8vw;
+    font-size: clamp(42px, 3.8vw, 94px) ;
+    line-height: clamp(42px, 3.8vw, 94px) ;
     font-weight:600;
   
 }
@@ -237,39 +153,15 @@ About sion
     opacity: 0;
   }
 }
-.arrow-indicator{
-  position:absolute;
-  width: 200px;
-  height: 200px;
-  color:white;
-  font-size: 40vw;
-  line-height: 0;
-  font-weight: 700;
-  z-index: -1;
-}
+
 .slide-about{
   position: relative;
 }
-.col-about-right{
-  display:inline-flex ;
-  width: 50%;
-    max-width: 35vw;
-  z-index: 5;
-  min-width: 400px;
 
-    padding: 0 50px;
-
-}
-.col-about-left{
-  width: 50%;
-min-width: 400px;
-  padding: 0 50px;
-
-
-}
 .section-title{
   font-size: 32px;
   letter-spacing: 2px;
+  line-height: 26px;
   font-variant: all-small-caps;
   color: #333;
   margin-top: 10px;
@@ -306,38 +198,60 @@ padding: 0px 6.5vw
 }
 .stat-title{
   font-weight: 300;
-  font-size: 3vw;
+  font-size: clamp(48px,3vw,200px);
   line-height: 2vw;
 }
 .g-8 {
   --bs-gutter-x: 6vw;
 }
 .section-gy{
-  padding:  100px 0;
+  padding-top:clamp(10px,10vh,10vw) ;
+  padding-bottom:clamp(10px,10vh,10vw) ;
 }
+.section-gyb{
+padding-bottom:clamp(10px,10vh,10vw) ;
+}
+.section-line{padding-bottom: clamp(10px,25vh,20vw);}
 
-    @media (max-width: 768px) {
+.no-cell{
+display:block;
+}
+.only-cell{
+  display: none;
+}
+.mb-custom{
+  margin-bottom: clamp(0px,10vh,5vw);
+}
+@media (max-width: 767px) {
+.mb-custom{
+  margin-bottom: 0px;
+}
+  .no-cell{
+display:none;
+}
+.only-cell{
+  display: block;
+}
       h1 {
     font-size: 9vw;
     line-height: 9vw;
     font-weight: 600;
     color: #333;
 }
-.t-areas{
-  padding: 10vw;
+.section-line{padding-bottom:10px}
+.section-gy{
+  padding:  10px 0;
 }
-h3{
-  font-size: 6vw;
-  line-height: 5.5vw;
+.section-gyb{
+  padding-bottom:  10px;
 }
+
+
       .title-huge{
   font-size: 9vw;font-weight:600;
   line-height: 9vw;
 }
-  .padding-dinamic{
-  padding: 0px 10px;
 
-}
 .font-huge{
     font-size: 21px;
     font-weight: 300;
@@ -350,34 +264,10 @@ h3{
 
 }
 .row-padding {
-padding: 10px 20px
+padding: 10px 10px
 }
-.col-about-right{
-  display:inline-flex ;
-  width: 100%;
-  z-index: 5;
-
-    padding: 0 ;
-    margin-bottom: 20px;
-
-}
-.col-about-left{
-  width: 100%;
-  padding: 0 ;
-    margin-bottom: 20px;
 
 
-}
-.item-col{padding: 5px 10px}
-  .svg-logo svg {
-    width: 150px;
-    height: 150px;
-  }
-  .svg-logo{position:absolute;
-  right: 0%;  
-top:-130px;
-  z-index:4;
-}
 }
 
 .btn-endpoints {
@@ -404,7 +294,6 @@ color: #1958F4;
 }
 .logo-grid-proven {
   opacity: 1;
-
   pointer-events: none;
   transform-style: preserve-3d;
   perspective: 1000px;
