@@ -2,6 +2,9 @@
 body{
         background-color: rgb(250, 254, 255); 
 }
+html, body {
+  overflow-x: hidden;
+}
 .bg-light-endpoints{
   background-color: rgb(250, 254, 255); 
 }
@@ -68,7 +71,7 @@ max-width: 300px; width: 20vw;min-width: 150px;  margin-left: 0.1rem;
     height:clamp(320px, 50vh, 40vw);
     border-radius: 1.5rem;
     align-content: start;
-    padding:clamp(40px, 2vw, 50px);
+    padding:clamp(30px, 2vw, 50px);
 
   background-color: #25272e;
   color: white;
@@ -183,14 +186,14 @@ padding: 0px 6.5vw
       top:15%
     }
 .line-stat{
-  width: 100%;
+  width: 99%;
   height: 2px;
   background: linear-gradient(to right, #1958F4, #17DDDB);
   margin: 10px 0px;
 
 }
 .stat-card{
-  margin: 50px 0px;
+  margin: clamp(10px,5vw,50px) 0px;
 
 }
 .stat-card h3{
@@ -222,6 +225,40 @@ display:block;
 .mb-custom{
   margin-bottom: clamp(0px,10vh,5vw);
 }
+.mb-endpoints{
+  margin-bottom: clamp(10px,5vh,10vw)   ;
+
+}
+.logo-strip-container {
+    overflow: hidden;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 0;
+  }
+
+  .logo-strip-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    animation: scroll 80s linear infinite;
+  }
+
+  .logo-strip-track img {
+    height: 40px; /* Tamaño pequeño para evitar pixelación */
+    margin: 0 25px;
+    object-fit: contain;
+    max-height: 100%;
+    transition: transform 0.3s;
+  }
+
+  .logo-strip-track img:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
 @media (max-width: 767px) {
 .mb-custom{
   margin-bottom: 0px;
@@ -264,6 +301,7 @@ display:none;
 
 }
 .row-padding {
+  
 padding: 10px 10px
 }
 
@@ -278,7 +316,7 @@ padding: 10px 10px
   padding: 15px;
   height: 50px;
   width: 100%;
-  max-width: 300px;
+  max-width: 270px;
   border-radius: 50px;
   font-weight: 500;
   line-height: 15px;
